@@ -37,25 +37,20 @@ This information is used to display session state, surface approval prompts and
 questions, install or update local integrations you enable, route notifications,
 restore context, and focus related terminal or IDE windows.
 
-## Optional Telemetry
+## Telemetry
 
-Agent Perch may offer optional product telemetry. Telemetry is not required for
-the app to function, and you can disable it in Settings.
+Agent Perch 1.0.1 does not upload product telemetry and does not show a
+telemetry consent prompt or Settings switch.
 
-If telemetry is enabled, Agent Perch may send a limited set of product usage
-events to help improve reliability and integration quality. These events may
-include app launch events, integration installation results, client type
-categories, coarse session lifecycle categories, error categories, and feature
-usage counts.
+Dormant telemetry code may remain in the open-source project for future opt-in
+builds, but it is disabled in the product. If telemetry is introduced in a later
+version, this policy and the App Store privacy disclosures will be updated
+before release.
 
-Telemetry does not include prompts, responses, code, diffs, terminal output,
+Agent Perch does not upload prompts, responses, code, diffs, terminal output,
 project paths, file paths, repository names, usernames, hostnames, SSH targets,
 IP addresses, raw hook payloads, diagnostic files, secrets, tokens, API keys, or
 the contents of local agent sessions.
-
-If telemetry is enabled, Agent Perch may use Alibaba Cloud Simple Log Service to
-store product usage events. See `docs/telemetry.md` in the project repository
-for the current event and field allowlist.
 
 ## Permissions
 
@@ -110,4 +105,3 @@ You can:
 For privacy questions or support, open an issue at:
 
 https://github.com/foralgerli/agent-perch/issues
-
